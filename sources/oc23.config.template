@@ -1,0 +1,28 @@
+<?php
+// HTTP
+define('HTTP_SERVER', 'http://dev.local/oci/{name}/');
+
+// HTTPS
+define('HTTPS_SERVER', 'http://dev.local/oci/{name}/');
+
+// DIR
+define('DIR_APPLICATION', '/Users/saqibashraf/Desktop/oc/oci/{name}/catalog/');
+define('DIR_SYSTEM', '/Users/saqibashraf/Desktop/oc/oci/{name}/system/');
+define('DIR_IMAGE', '/Users/saqibashraf/Desktop/oc/oci/{name}/image/');
+define('DIR_LANGUAGE', '/Users/saqibashraf/Desktop/oc/oci/{name}/catalog/language/');
+define('DIR_TEMPLATE', '/Users/saqibashraf/Desktop/oc/oci/{name}/catalog/view/theme/');
+define('DIR_CONFIG', '/Users/saqibashraf/Desktop/oc/oci/{name}/system/config/');
+define('DIR_CACHE', '/Users/saqibashraf/Desktop/oc/oci/{name}/system/storage/cache/');
+define('DIR_DOWNLOAD', '/Users/saqibashraf/Desktop/oc/oci/{name}/system/storage/download/');
+define('DIR_LOGS', '/Users/saqibashraf/Desktop/oc/oci/{name}/system/storage/logs/');
+define('DIR_MODIFICATION', '/Users/saqibashraf/Desktop/oc/oci/{name}/system/storage/modification/');
+define('DIR_UPLOAD', '/Users/saqibashraf/Desktop/oc/oci/{name}/system/storage/upload/');
+
+// DB
+define('DB_DRIVER', 'mysqli');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'yourpassword');
+define('DB_DATABASE', '{name}');
+define('DB_PORT', '3306');
+define('DB_PREFIX', 'oc_');
